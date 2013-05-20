@@ -93,6 +93,8 @@ support: IETF 08
 Go
 ==
 
+None found
+
 Perl
 ====
 
@@ -101,8 +103,12 @@ None found on CPAN
 C
 =
 
+None found
+
 C++
 ===
+
+None found
 
 Haskell
 =======
