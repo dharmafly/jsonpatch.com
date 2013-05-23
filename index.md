@@ -1,3 +1,7 @@
+---
+title: JSONPatch
+---
+
 # What is JSONPatch?
 
 JSON Patch is a format for describing changes to a [JSON](http://json.com) document. It can be used to avoid sending a whole document when only a part has changed. When used in combination with the [HTTP PATCH method](http://tools.ietf.org/html/rfc5789) it allows partial updates for HTTP APIs in a standards compliant way.
@@ -133,10 +137,10 @@ If we're missing a library please let us know (see below)!
 
 A collection of conformance tests for JSON Patch are maintained on github:
 
-https://github.com/mikemccabe/json-patch-tests
+[github.com/mikemccabe/json-patch-tests](https://github.com/mikemccabe/json-patch-tests)
 
 # Update this page
 
 jsonpatch.com is hosted on Github and Pull Requests are welcome:
 
-https://github.com/dharmafly/jsonpatch.com
+[github.com/dharmafly/jsonpatch.com](https://github.com/dharmafly/jsonpatch.com)
