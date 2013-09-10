@@ -8,7 +8,7 @@ JSON Patch is a format for describing changes to a [JSON](http://json.com) docum
 
 The patch documents are themselves JSON formatted.
 
-JSON Patch is specified in [RFC 2902](http://tools.ietf.org/html/rfc6902) from the IETF.
+JSON Patch is specified in [RFC 6902](http://tools.ietf.org/html/rfc6902) from the IETF.
 
 ## Simple example
 
