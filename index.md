@@ -128,7 +128,7 @@ If we're missing a library please let us know (see below)!
 
 - [perl-json-patch](https://github.com/zigorou/perl-json-patch)
 
-## C\#
+## C &#35;
 
 - [Ramone](https://github.com/JornWildt/Ramone) (a framework for consuming REST services, includes a JSONPatch implementation)
 
