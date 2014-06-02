@@ -140,7 +140,7 @@ If we're missing a library please let us know (see below)!
 
 A collection of conformance tests for JSON Patch are maintained on github:
 
-[github.com/mikemccabe/json-patch-tests](https://github.com/mikemccabe/json-patch-tests)
+[github.com/json-patch/json-patch-tests](https://github.com/json-patch/json-patch-tests)
 
 # Update this page
 
