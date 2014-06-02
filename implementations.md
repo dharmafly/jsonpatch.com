@@ -10,7 +10,7 @@ language: javascript
 github: https://github.com/dharmafly/jsonpatch.js
 web: http://jsonpatchjs.com/
 npm: npm install jsonpatch
-supported: IETF draft 09 (latest)
+supported: IETF draft 09
 
 Notes: Does not mutate input documents
 
@@ -24,6 +24,18 @@ npm: npm install json-patch
 supported: IETF draft 08
 
 Notes: Mutates input documents
+
+
+jiff
+----
+
+language: javascript
+github: https://github.com/cujojs/jiff
+npm: npm install jiff
+supported: RFC6902
+
+Notes: Includes experimental diff-manipulation apis.
+
 
 Python
 ======
