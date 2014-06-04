@@ -108,6 +108,8 @@ If we're missing a library please let us know (see below)!
 
 - [jsonpatch.js](http://jsonpatchjs.com/)
 - [jsonpatch-js](http://bruth.github.com/jsonpatch-js/)
+- [jiff](https://github.com/cujojs/jiff)
+
 
 ## Python
 
@@ -134,7 +136,7 @@ If we're missing a library please let us know (see below)!
 
 ## Go
 
- - [json-patch](https://github.com/evanphx/json-patch)
+- [json-patch](https://github.com/evanphx/json-patch)
 
 # Test Suite
 
