@@ -46,7 +46,7 @@ JSON Pointer ([IETF RFC 6901](http://tools.ietf.org/html/rfc6901)) defines a str
 A JSON Pointer is a string of tokens seperated by "/" characters, these tokens either specify keys in objects or indexes into arrays. For example, given the JSON
 
     {
-      "biscsuits": [
+      "biscuits": [
         {"name":"Digestive"},
         {"name": "Choco Liebniz"}
       ]
