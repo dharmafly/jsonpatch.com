@@ -54,7 +54,7 @@ json-patch-php
 --------------
 
 github: https://github.com/mikemccabe/json-patch-php
-supported: IETF draft 02 (horribly out of date)
+supported: RFC6902
 
 JAVA
 ====
