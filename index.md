@@ -56,7 +56,7 @@ A JSON Pointer is a string of tokens seperated by "/" characters, these tokens e
 
 To point to the root of the document use an empty string for the pointer. The pointer `/` doesn't point to the root, it points to a key of `""` on the root (which is totally valid in JSON).
 
-If you need to refer to a key with `/` or `~` in its name you must escape the characters with `~1` and `~0` respectively. For example, to get `"baz"` from `{"foo/bar~"}` you'd use the pointer `/foo~0bar~1`.
+If you need to refer to a key with `/` or `~` in its name you must escape the characters with `~0` and `~1` respectively. For example, to get `"baz"` from `{"foo/bar~"}` you'd use the pointer `/foo~0bar~1`.
 
 Finally, if you need to refer to the end of an array you can use `-` instead of an index. For example, to refer to the end of the array of biscuits above you would use `/biscuits/-`. This is useful when you need to insert a value at the end of an array.
 
