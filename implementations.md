@@ -59,6 +59,13 @@ supported: RFC6902
 JAVA
 ====
 
+json-patch
+----------
+
+'An RFC 6902 (JSON Patch) and reverse, plus JSON Merge Patch, implementation in Java using Jackson (2.2.x)'
+github: https://github.com/fge/json-patch
+supported: RFC6902
+
 forgerock-rest
 --------------
 
