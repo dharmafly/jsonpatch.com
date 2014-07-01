@@ -109,7 +109,7 @@ If we're missing a library please let us know (see below)!
 - [jsonpatch.js](http://jsonpatchjs.com/)
 - [jsonpatch-js](http://bruth.github.com/jsonpatch-js/)
 - [jiff](https://github.com/cujojs/jiff)
-
+- [rfc6902](http://chbrown.github.io/rfc6902/)
 
 ## Python
 
