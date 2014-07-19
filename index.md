@@ -24,8 +24,8 @@ JSON Patch is specified in [RFC 6902](http://tools.ietf.org/html/rfc6902) from t
 
     [
       { "op": "replace", "path": "/baz", "value": "boo" },
-      { "op": "add", "path": "/hello, "value": ["world"] },
-      { "op": "remove, "path": "/foo}
+      { "op": "add", "path": "/hello", "value": ["world"] },
+      { "op": "remove", "path": "/foo"}
     ]
 
 ### The result
@@ -88,7 +88,7 @@ Copy a value from one location to an other within the JSON document. Both `from`
 
 ### Move
 
-    {"op": "move", "from": "/biscuits", "path": "/cookies}
+    {"op": "move", "from": "/biscuits", "path": "/cookies"}
 
 Move a value from one location to the other. Both `from` and `path` are JSON Pointers.
 
