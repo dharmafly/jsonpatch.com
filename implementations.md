@@ -56,6 +56,13 @@ json-patch-php
 github: https://github.com/mikemccabe/json-patch-php
 supported: RFC6902
 
+php-jsonpatch/php-jsonpatch
+---------------------------
+
+github: https://github.com/raphaelstolt/php-jsonpatch
+packagist: https://packagist.org/packages/php-jsonpatch/php-jsonpatch
+supported: RFC6902
+
 JAVA
 ====
 
