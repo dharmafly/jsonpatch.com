@@ -37,6 +37,14 @@ supported: RFC6902
 Notes: Includes experimental diff-manipulation apis.
 
 
+JSON-Patch
+----
+
+language: javascript
+github: https://github.com/Starcounter-Jack/JSON-Patch
+npm: npm install fast-json-patch
+supported: RFC6902
+
 Python
 ======
 
