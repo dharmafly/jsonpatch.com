@@ -142,6 +142,10 @@ If we're missing a library please let us know (see below)!
 
 - [json-patch](https://github.com/evanphx/json-patch)
 
+## Haskell
+
+- [Haskell-JSON-Patch](https://github.com/GallagherCommaJack/Haskell-JSON-Patch)
+
 # Test Suite
 
 A collection of conformance tests for JSON Patch are maintained on github:
