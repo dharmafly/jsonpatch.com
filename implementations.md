@@ -148,4 +148,4 @@ None found
 Haskell
 =======
 
-None found with web search or on Hackage
+github: https://github.com/GallagherCommaJack/Haskell-JSON-Patch
