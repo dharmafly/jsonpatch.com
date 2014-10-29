@@ -10,6 +10,7 @@ language: javascript
 github: https://github.com/dharmafly/jsonpatch.js
 web: http://jsonpatchjs.com/
 npm: npm install jsonpatch
+bower: bower install jsonpatch
 supported: IETF draft 09
 
 Notes: Does not mutate input documents
@@ -21,6 +22,7 @@ language: coffeescript
 github: https://github.com/bruth/jsonpatch-js
 web: http://bruth.github.com/jsonpatch-js/
 npm: npm install json-patch
+bower: bower install json-patch
 supported: IETF draft 08
 
 Notes: Mutates input documents
@@ -32,6 +34,7 @@ jiff
 language: javascript
 github: https://github.com/cujojs/jiff
 npm: npm install jiff
+bower: bower install jiff
 supported: RFC6902
 
 Notes: Includes experimental diff-manipulation apis.
@@ -43,6 +46,7 @@ JSON-Patch
 language: javascript
 github: https://github.com/Starcounter-Jack/JSON-Patch
 npm: npm install fast-json-patch
+bower: bower install fast-json-patch
 supported: RFC6902
 
 Python
