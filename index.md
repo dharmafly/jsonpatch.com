@@ -109,6 +109,7 @@ If we're missing a library please let us know (see below)!
 - [jsonpatch.js](http://jsonpatchjs.com/)
 - [jsonpatch-js](http://bruth.github.com/jsonpatch-js/)
 - [jiff](https://github.com/cujojs/jiff)
+- [JSON-Patch](https://github.com/Starcounter-Jack/JSON-Patch)
 
 
 ## Python
