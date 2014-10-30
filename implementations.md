@@ -128,6 +128,14 @@ A c# framework for consuming rest services, supports JSONPatch as part of this.
 github: https://github.com/JornWildt/Ramone
 support: IETF 08
 
+JsonPatch
+------
+
+Adds JSONPatch support to ASP.NET Web API.
+
+github: https://github.com/myquay/JsonPatch
+
+
 Go
 ==
 
