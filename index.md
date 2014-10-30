@@ -52,7 +52,7 @@ A JSON Pointer is a string of tokens seperated by "/" characters, these tokens e
       ]
     }
 
-`/biscuits` would point to the array of biscuits and `/biscuits/1/name` would point to `"Choco Liebniz"`.
+`/biscuits` would point to the array of biscuits and `/biscuits/0/name` would point to `"Choco Liebniz"`.
 
 To point to the root of the document use an empty string for the pointer. The pointer `/` doesn't point to the root, it points to a key of `""` on the root (which is totally valid in JSON).
 
