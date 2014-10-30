@@ -153,6 +153,12 @@ A collection of conformance tests for JSON Patch are maintained on Github:
 
 [github.com/json-patch/json-patch-tests](https://github.com/json-patch/json-patch-tests)
 
+# JSON Schema
+
+The JSONPatch format is also specified as a JSON Schema for supporting validators and text editors.
+
+[JSON Schema for JSONPatch](http://json.schemastore.org/json-patch)
+
 # Update this page
 
 jsonpatch.com is hosted on Github. Pull Requests are welcome:
