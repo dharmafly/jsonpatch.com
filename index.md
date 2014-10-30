@@ -4,9 +4,9 @@ title: JSONPatch
 
 # What is JSONPatch?
 
-JSON Patch is a format for describing changes to a [JSON](http://json.com) document. It can be used to avoid sending a whole document when only a part has changed. When used in combination with the [HTTP PATCH method](http://tools.ietf.org/html/rfc5789) it allows partial updates for HTTP APIs in a standards compliant way.
+JSON Patch is a format for describing changes to a [JSON](http://json.com) document. It can be used to avoid sending a whole document when only a part has changed. When used in combination with the [HTTP PATCH method](http://tools.ietf.org/html/rfc5789) it allows partial updates for HTTP APIs in a standards-compliant way.
 
-The patch documents are themselves JSON formatted.
+The patch documents are themselves JSON-formatted.
 
 JSON Patch is specified in [RFC 6902](http://tools.ietf.org/html/rfc6902) from the IETF.
 
@@ -37,13 +37,13 @@ JSON Patch is specified in [RFC 6902](http://tools.ietf.org/html/rfc6902) from t
 
 # How it works
 
-A JSON Patch document is just a JSON file containing an array of patch operations. The patch operations support by JSONPatch are "add", "remove", "replace", "move", "copy" and "test". The operations are applied in order and if any of them fail then the whole patch operation should abort.
+A JSON Patch document is just a JSON file containing an array of patch operations. The patch operations supported by JSONPatch are "add", "remove", "replace", "move", "copy" and "test". The operations are applied in order, and if any of them fail then the whole patch operation should abort.
 
 ## JSON Pointer
 
 JSON Pointer ([IETF RFC 6901](http://tools.ietf.org/html/rfc6901)) defines a string format for identifying a specific value within a JSON document. It is used by all operations in JSON Patch to specify the part of the document to operate on.
 
-A JSON Pointer is a string of tokens seperated by "/" characters, these tokens either specify keys in objects or indexes into arrays. For example, given the JSON
+A JSON Pointer is a string of tokens seperated by `/` characters, these tokens either specify keys in objects or indexes into arrays. For example, given the JSON
 
     {
       "biscuits": [
@@ -78,13 +78,13 @@ Removes a value from an object or array.
 
     {"op": "replace", "path": "/biscuits/0/name", "value": "Chocolate Digestive"}
 
-Replaces a value, equivalent to a "remove" followed by an "add".
+Replaces a value. Equivalent to a "remove" followed by an "add".
 
 ### Copy
 
     {"op": "copy", "from": "/biscuits/0", "path": "/best_biscuit"}
 
-Copy a value from one location to an other within the JSON document. Both `from` and `path` are JSON Pointers.
+Copy a value from one location to another within the JSON document. Both `from` and `path` are JSON Pointers.
 
 ### Move
 
@@ -111,11 +111,9 @@ If we're missing a library please let us know (see below)!
 - [jiff](https://github.com/cujojs/jiff)
 - [JSON-Patch](https://github.com/Starcounter-Jack/JSON-Patch)
 
-
 ## Python
 
 - [python-json-patch](https://github.com/stefankoegl/python-json-patch)
-
 
 ## PHP
 
@@ -156,6 +154,6 @@ A collection of conformance tests for JSON Patch are maintained on github:
 
 # Update this page
 
-jsonpatch.com is hosted on Github and Pull Requests are welcome:
+jsonpatch.com is hosted on Github. Pull Requests are welcome:
 
 [github.com/dharmafly/jsonpatch.com](https://github.com/dharmafly/jsonpatch.com)
