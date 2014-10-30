@@ -39,6 +39,17 @@ supported: RFC6902
 
 Notes: Includes experimental diff-manipulation apis.
 
+rfc6902
+-------
+
+language: javascript
+github: https://github.com/chbrown/rfc6902
+npm: npm install rfc6902
+supported: RFC6902
+web: http://chbrown.github.io/rfc6902/
+
+Notes: Includes diff.  Nice diff demo page.
+
 
 JSON-Patch
 ----
