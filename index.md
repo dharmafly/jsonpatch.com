@@ -155,9 +155,9 @@ A collection of conformance tests for JSON Patch are maintained on Github:
 
 # JSON Schema
 
-JSON Schema is a way to describe JSON data formats like JSONPatch. Supporting tools and libraries can use these schemas to provide auto-completion, validation and tooltips to help JSON file authors.
+[JSON Schema](http://json-schema.org/) is a way to describe JSON data formats like JSONPatch. Supporting [tools and libraries](http://json-schema.org/implementations.html) can use these schemas to provide auto-completion, validation and tooltips to help JSON file authors.
 
-[JSON Schema for JSONPatch](http://json.schemastore.org/json-patch)
+[http://json.schemastore.org/json-patch](http://json.schemastore.org/json-patch)
 
 # Update this page
 
