@@ -155,7 +155,7 @@ A collection of conformance tests for JSON Patch are maintained on Github:
 
 # JSON Schema
 
-The JSONPatch format is also specified as a JSON Schema for supporting validators and text editors.
+JSON Schema is a way to describe JSON data formats like JSONPatch. Supporting tools and libraries can use these schemas to provide auto-completion, validation and tooltips to help JSON file authors.
 
 [JSON Schema for JSONPatch](http://json.schemastore.org/json-patch)
 
