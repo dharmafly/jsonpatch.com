@@ -51,14 +51,16 @@ web: http://chbrown.github.io/rfc6902/
 Notes: Includes diff.  Nice diff demo page.
 
 
-JSON-Patch
+Fast-JSON-Patch
 ----
 
 language: javascript
-github: https://github.com/Starcounter-Jack/JSON-Patch
+github: https://github.com/Starcounter-Jack/Fast-JSON-Patch
 npm: npm install fast-json-patch
 bower: bower install fast-json-patch
 supported: RFC6902
+
+Notes: Comes in two versions: basic (fast and slim) and duplex (with ability to observe for changes and generate patches).
 
 Python
 ======
