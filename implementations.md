@@ -91,6 +91,13 @@ supported: RFC6902
 JAVA
 ====
 
+zjsonpatch
+----------
+
+'This is an implementation of RFC 6902 JSON Patch written in Java'
+github: https://github.com/flipkart-incubator/zjsonpatch
+
+
 json-patch
 ----------
 
