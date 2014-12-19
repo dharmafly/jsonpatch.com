@@ -132,7 +132,7 @@ If we're missing a library please let us know (see below)!
 
 ## Java
 
-- [zjsonpath](https://github.com/flipkart-incubator/zjsonpatch)
+- [zjsonpatch](https://github.com/flipkart-incubator/zjsonpatch)
 - [json-patch](https://github.com/fge/json-patch)
 
 ## C &#35;
