@@ -79,6 +79,7 @@ json-patch-php
 --------------
 
 github: https://github.com/mikemccabe/json-patch-php
+packagist: https://packagist.org/packages/mikemccabe/json-patch-php
 supported: RFC6902
 
 php-jsonpatch/php-jsonpatch
