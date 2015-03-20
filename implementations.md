@@ -182,3 +182,16 @@ Haskell
 =======
 
 github: https://github.com/GallagherCommaJack/Haskell-JSON-Patch
+
+Scala
+=====
+
+diffson
+-------
+
+language: scala
+github: https://github.com/gnieh/diffson
+sbt: "org.gnieh" %% "diffson" % "0.3.1"
+supported: RFC6902
+
+Notes: Includes patch creation with several diff algorithms.
