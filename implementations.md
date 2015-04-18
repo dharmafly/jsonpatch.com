@@ -162,6 +162,11 @@ Go
 
 github: https://github.com/evanphx/json-patch
 
+JsonPatch
+------
+This simple, small library generates JsonPatch operations by diffing two documents.
+
+https://github.com/mattbaird/jsonpatch
 
 Perl
 ====
