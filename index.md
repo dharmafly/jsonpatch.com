@@ -110,6 +110,7 @@ If we're missing a library please let us know (see below)!
 - [jsonpatch-js](http://bruth.github.com/jsonpatch-js/)
 - [jiff](https://github.com/cujojs/jiff)
 - [Fast-JSON-Patch](https://github.com/Starcounter-Jack/Fast-JSON-Patch)
+- [JSONG](https://github.com/sonnyp/JSONG)
 
 ## Python
 

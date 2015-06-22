@@ -62,6 +62,15 @@ supported: RFC6902
 
 Notes: Comes in two versions: basic (fast and slim) and duplex (with ability to observe for changes and generate patches).
 
+JSONG
+----
+
+language: javascript
+github: https://github.com/sonnyp/JSONG
+supported: RFC6902
+
+Notes: Abstracts JSON document
+
 Python
 ======
 
