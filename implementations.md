@@ -98,6 +98,13 @@ github: https://github.com/raphaelstolt/php-jsonpatch
 packagist: https://packagist.org/packages/php-jsonpatch/php-jsonpatch
 supported: RFC6902
 
+xp-forge/json-patch
+-------------------
+
+github: https://github.com/xp-forge/json-patch
+packagist: https://packagist.org/packages/xp-forge/json-patch
+supported: RFC6902
+
 JAVA
 ====
 
