@@ -62,14 +62,15 @@ supported: RFC6902
 
 Notes: Comes in two versions: basic (fast and slim) and duplex (with ability to observe for changes and generate patches).
 
-JSONG
-----
+JSON8 Patch
+-----------
 
 language: javascript
-github: https://github.com/sonnyp/JSONG
+github: https://github.com/JSON8/patch
+npm: npm install json8-patch
 supported: RFC6902
 
-Notes: Abstracts JSON document
+Notes: Works in Node.js/io.js and browser, can revert patches.
 
 Python
 ======
