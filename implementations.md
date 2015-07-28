@@ -185,6 +185,12 @@ This simple, small library generates JsonPatch operations by diffing two documen
 
 https://github.com/mattbaird/jsonpatch
 
+JsonPatch (no relation to the above library)
+------
+This library can generate and apply JSON Patches.  
+
+https://github.com/VictorLowther/jsonpatch
+
 Perl
 ====
 
