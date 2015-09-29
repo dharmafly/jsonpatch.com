@@ -173,6 +173,14 @@ Adds JSONPatch support to ASP.NET Web API.
 
 github: https://github.com/myquay/JsonPatch
 
+Starcounter
+------
+
+In-memory Application Engine, uses JSON Patch with OT for client-server sync.
+
+github: https://github.com/Starcounter/Starcounter
+supported: RFC6902
+
 
 Go
 ==
