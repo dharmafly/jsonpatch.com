@@ -173,6 +173,13 @@ Adds JSONPatch support to ASP.NET Web API.
 
 github: https://github.com/myquay/JsonPatch
 
+Nancy.JsonPatch
+------
+
+Implements JSONPatch for the Nancy web framework.
+
+github: https://github.com/DSaunders/Nancy.JsonPatch
+
 Starcounter
 ------
 
