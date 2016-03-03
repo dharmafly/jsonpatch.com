@@ -142,6 +142,7 @@ If we're missing a library please let us know (see below)!
 - [Ramone](https://github.com/JornWildt/Ramone) (a framework for consuming REST services, includes a JSONPatch implementation)
 - [JsonPatch](https://github.com/myquay/JsonPatch) (Adds JSONPatch support to ASP.NET Web API)
 - [Starcounter](https://starcounter.io) (In-memory Application Engine, uses JSON Patch with OT for client-server sync)
+- [Nancy.JsonPatch](https://github.com/DSaunders/Nancy.JsonPatch) (Adds JSONPatch support to NancyFX)
 
 ## Go
 
