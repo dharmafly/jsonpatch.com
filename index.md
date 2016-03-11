@@ -111,6 +111,7 @@ If we're missing a library please let us know (see below)!
 - [jiff](https://github.com/cujojs/jiff)
 - [Fast-JSON-Patch](https://github.com/Starcounter-Jack/Fast-JSON-Patch)
 - [JSON8 Patch](https://github.com/JSON8/patch)
+- [JSON Patch Utils](https://github.com/MarketsWorld/json-patch-utils)
 
 ## Python
 
