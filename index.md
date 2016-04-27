@@ -1,8 +1,8 @@
 ---
-title: JSONPatch
+title: JSON Patch
 ---
 
-# What is JSONPatch?
+# What is JSON Patch?
 
 JSON Patch is a format for describing changes to a [JSON](http://json.com) document. It can be used to avoid sending a whole document when only a part has changed. When used in combination with the [HTTP PATCH method](http://tools.ietf.org/html/rfc5789) it allows partial updates for HTTP APIs in a standards compliant way.
 
@@ -37,7 +37,7 @@ JSON Patch is specified in [RFC 6902](http://tools.ietf.org/html/rfc6902) from t
 
 # How it works
 
-A JSON Patch document is just a JSON file containing an array of patch operations. The patch operations supported by JSONPatch are "add", "remove", "replace", "move", "copy" and "test". The operations are applied in order; if any of them fail then the whole patch operation should abort.
+A JSON Patch document is just a JSON file containing an array of patch operations. The patch operations supported by JSON Patch are "add", "remove", "replace", "move", "copy" and "test". The operations are applied in order; if any of them fail then the whole patch operation should abort.
 
 ## JSON Pointer
 
@@ -140,10 +140,10 @@ If we're missing a library please let us know (see below)!
 
 ## C &#35;
 
-- [Ramone](https://github.com/JornWildt/Ramone) (a framework for consuming REST services, includes a JSONPatch implementation)
-- [JsonPatch](https://github.com/myquay/JsonPatch) (Adds JSONPatch support to ASP.NET Web API)
+- [Ramone](https://github.com/JornWildt/Ramone) (a framework for consuming REST services, includes a JSON Patch implementation)
+- [JsonPatch](https://github.com/myquay/JsonPatch) (Adds JSON Patch support to ASP.NET Web API)
 - [Starcounter](https://starcounter.io) (In-memory Application Engine, uses JSON Patch with OT for client-server sync)
-- [Nancy.JsonPatch](https://github.com/DSaunders/Nancy.JsonPatch) (Adds JSONPatch support to NancyFX)
+- [Nancy.JsonPatch](https://github.com/DSaunders/Nancy.JsonPatch) (Adds JSON Patch support to NancyFX)
 
 ## Go
 
@@ -166,7 +166,7 @@ A collection of conformance tests for JSON Patch are maintained on Github:
 
 # JSON Schema
 
-[JSON Schema](http://json-schema.org/) is a way to describe JSON data formats like JSONPatch. Supporting [tools and libraries](http://json-schema.org/implementations.html) can use these schemas to provide auto-completion, validation and tooltips to help JSON file authors.
+[JSON Schema](http://json-schema.org/) is a way to describe JSON data formats like JSON Patch. Supporting [tools and libraries](http://json-schema.org/implementations.html) can use these schemas to provide auto-completion, validation and tooltips to help JSON file authors.
 
 [http://json.schemastore.org/json-patch](http://json.schemastore.org/json-patch)
 
