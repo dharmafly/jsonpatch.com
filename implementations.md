@@ -161,7 +161,7 @@ C#
 ramone
 ------
 
-A c# framework for consuming rest services, supports JSONPatch as part of this.
+A c# framework for consuming rest services, supports JSON Patch as part of this.
 
 github: https://github.com/JornWildt/Ramone
 support: IETF 08
@@ -169,14 +169,14 @@ support: IETF 08
 JsonPatch
 ------
 
-Adds JSONPatch support to ASP.NET Web API.
+Adds JSON Patch support to ASP.NET Web API.
 
 github: https://github.com/myquay/JsonPatch
 
 Nancy.JsonPatch
 ------
 
-Implements JSONPatch for the Nancy web framework.
+Implements JSON Patch for the Nancy web framework.
 
 github: https://github.com/DSaunders/Nancy.JsonPatch
 
