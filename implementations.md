@@ -106,6 +106,13 @@ github: https://github.com/xp-forge/json-patch
 packagist: https://packagist.org/packages/xp-forge/json-patch
 supported: RFC6902
 
+JSONPatch
+-------------------
+
+github: https://github.com/gamringer/JSONPatch
+packagist: https://packagist.org/packages/gamringer/php-json-patch
+supported: RFC6902
+
 JAVA
 ====
 
