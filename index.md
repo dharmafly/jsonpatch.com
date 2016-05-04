@@ -122,6 +122,7 @@ If we're missing a library please let us know (see below)!
 - [json-patch-php](https://github.com/mikemccabe/json-patch-php)
 - [php-jsonpatch/php-jsonpatch](https://github.com/raphaelstolt/php-jsonpatch)
 - [xp-forge/json-patch](https://github.com/xp-forge/json-patch)
+- [JSONPatch](https://github.com/gamringer/JSONPatch)
 
 ## Ruby
 
