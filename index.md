@@ -134,6 +134,10 @@ If we're missing a library please let us know (see below)!
 
 - [perl-json-patch](https://github.com/zigorou/perl-json-patch)
 
+## C
+
+- [cJSON](https://github.com/DaveGamble/cJSON) (JSON library in C, includes JSON Patch support in cJSON_Utils)
+
 ## Java
 
 - [zjsonpatch](https://github.com/flipkart-incubator/zjsonpatch)
