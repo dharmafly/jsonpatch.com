@@ -48,11 +48,11 @@ A JSON Pointer is a string of tokens seperated by `/` characters, these tokens e
     {
       "biscuits": [
         {"name":"Digestive"},
-        {"name": "Choco Liebniz"}
+        {"name": "Choco Leibniz"}
       ]
     }
 
-`/biscuits` would point to the array of biscuits and `/biscuits/1/name` would point to `"Choco Liebniz"`.
+`/biscuits` would point to the array of biscuits and `/biscuits/1/name` would point to `"Choco Leibniz"`.
 
 To point to the root of the document use an empty string for the pointer. The pointer `/` doesn't point to the root, it points to a key of `""` on the root (which is totally valid in JSON).
 
@@ -94,7 +94,7 @@ Move a value from one location to the other. Both `from` and `path` are JSON Poi
 
 ### Test
 
-    {"op": "test", "path": "/best_biscuit/name", "value": "Choco Liebniz"}
+    {"op": "test", "path": "/best_biscuit/name", "value": "Choco Leibniz"}
 
 Tests that the specified value is set in the document. If the test fails then the patch as a whole should not apply.
 
