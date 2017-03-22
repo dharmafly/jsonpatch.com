@@ -4,7 +4,7 @@ title: JSON Patch
 
 # What is JSON Patch?
 
-JSON Patch is a format for describing changes to a [JSON](http://json.com) document. It can be used to avoid sending a whole document when only a part has changed. When used in combination with the [HTTP PATCH method](http://tools.ietf.org/html/rfc5789) it allows partial updates for HTTP APIs in a standards compliant way.
+JSON Patch is a format for describing changes to a [JSON](http://json.com) document. It can be used to avoid sending a whole document when only a part has changed. When used in combination with the [HTTP PATCH method](http://tools.ietf.org/html/rfc5789), it allows partial updates for HTTP APIs in a standards compliant way.
 
 The patch documents are themselves JSON documents.
 
@@ -13,7 +13,6 @@ JSON Patch is specified in [RFC 6902](http://tools.ietf.org/html/rfc6902) from t
 ## Simple example
 
 ### The original document
-
 
     {
       "baz": "qux",
@@ -31,32 +30,32 @@ JSON Patch is specified in [RFC 6902](http://tools.ietf.org/html/rfc6902) from t
 ### The result
 
     {
-       "baz": "boo",
-       "hello": ["world"]
+      "baz": "boo",
+      "hello": ["world"]
     }
 
 # How it works
 
-A JSON Patch document is just a JSON file containing an array of patch operations. The patch operations supported by JSON Patch are "add", "remove", "replace", "move", "copy" and "test". The operations are applied in order; if any of them fail then the whole patch operation should abort.
+A JSON Patch document is just a JSON file containing an array of patch operations. The patch operations supported by JSON Patch are "add", "remove", "replace", "move", "copy" and "test". The operations are applied in order: if any of them fail then the whole patch operation should abort.
 
 ## JSON Pointer
 
 JSON Pointer ([IETF RFC 6901](http://tools.ietf.org/html/rfc6901)) defines a string format for identifying a specific value within a JSON document. It is used by all operations in JSON Patch to specify the part of the document to operate on.
 
-A JSON Pointer is a string of tokens seperated by `/` characters, these tokens either specify keys in objects or indexes into arrays. For example, given the JSON
+A JSON Pointer is a string of tokens separated by `/` characters, these tokens either specify keys in objects or indexes into arrays. For example, given the JSON
 
     {
       "biscuits": [
-        {"name":"Digestive"},
-        {"name": "Choco Liebniz"}
+        { "name": "Digestive" },
+        { "name": "Choco Leibniz" }
       ]
     }
 
-`/biscuits` would point to the array of biscuits and `/biscuits/1/name` would point to `"Choco Liebniz"`.
+`/biscuits` would point to the array of biscuits and `/biscuits/1/name` would point to `"Choco Leibniz"`.
 
 To point to the root of the document use an empty string for the pointer. The pointer `/` doesn't point to the root, it points to a key of `""` on the root (which is totally valid in JSON).
 
-If you need to refer to a key with `~` or `/` in its name you must escape the characters with `~0` and `~1` respectively. For example, to get `"baz"` from `{"foo/bar~": "baz"}` you'd use the pointer `/foo~1bar~0`.
+If you need to refer to a key with `~` or `/` in its name, you must escape the characters with `~0` and `~1` respectively. For example, to get `"baz"` from `{ "foo/bar~": "baz" }` you'd use the pointer `/foo~1bar~0`.
 
 Finally, if you need to refer to the end of an array you can use `-` instead of an index. For example, to refer to the end of the array of biscuits above you would use `/biscuits/-`. This is useful when you need to insert a value at the end of an array.
 
@@ -64,43 +63,43 @@ Finally, if you need to refer to the end of an array you can use `-` instead of 
 
 ### Add
 
-    {"op": "add", "path": "/biscuits/1", "value": {"name": "Ginger Nut"}}
+    { "op": "add", "path": "/biscuits/1", "value": { "name": "Ginger Nut" } }
 
-Adds a value to an object or inserts it into an array. In the case of an array the value is inserted before the given index. The `-` character can be used instead of an index to insert at the end of an array.
+Adds a value to an object or inserts it into an array. In the case of an array, the value is inserted before the given index. The `-` character can be used instead of an index to insert at the end of an array.
 
 ### Remove
 
-    {"op": "remove", "path": "/biscuits"}
+    { "op": "remove", "path": "/biscuits" }
 
 Removes a value from an object or array.
 
 ### Replace
 
-    {"op": "replace", "path": "/biscuits/0/name", "value": "Chocolate Digestive"}
+    { "op": "replace", "path": "/biscuits/0/name", "value": "Chocolate Digestive" }
 
 Replaces a value. Equivalent to a "remove" followed by an "add".
 
 ### Copy
 
-    {"op": "copy", "from": "/biscuits/0", "path": "/best_biscuit"}
+    { "op": "copy", "from": "/biscuits/0", "path": "/best_biscuit" }
 
-Copy a value from one location to another within the JSON document. Both `from` and `path` are JSON Pointers.
+Copies a value from one location to another within the JSON document. Both `from` and `path` are JSON Pointers.
 
 ### Move
 
-    {"op": "move", "from": "/biscuits", "path": "/cookies"}
+    { "op": "move", "from": "/biscuits", "path": "/cookies" }
 
-Move a value from one location to the other. Both `from` and `path` are JSON Pointers.
+Moves a value from one location to the other. Both `from` and `path` are JSON Pointers.
 
 ### Test
 
-    {"op": "test", "path": "/best_biscuit/name", "value": "Choco Liebniz"}
+    { "op": "test", "path": "/best_biscuit/name", "value": "Choco Leibniz" }
 
-Tests that the specified value is set in the document. If the test fails then the patch as a whole should not apply.
+Tests that the specified value is set in the document. If the test fails, then the patch as a whole should not apply.
 
 # Libraries
 
-Libraries are available for a range of languages currently. You should check that the library you wish to use supports the RFC version of JSON Patch as there have been changes from the earlier draft versions and at the time of writing not all libraries have been updated.
+Libraries are available for a range of languages currently. You should check that the library you wish to use supports the RFC version of JSON Patch as there have been changes from the earlier draft versions and at the time of writing, not all libraries have been updated.
 
 If we're missing a library please let us know (see below)!
 
@@ -134,6 +133,10 @@ If we're missing a library please let us know (see below)!
 
 - [perl-json-patch](https://github.com/zigorou/perl-json-patch)
 
+## C
+
+- [cJSON](https://github.com/DaveGamble/cJSON) (JSON library in C, includes JSON Patch support in cJSON_Utils)
+
 ## Java
 
 - [zjsonpatch](https://github.com/flipkart-incubator/zjsonpatch)
@@ -143,7 +146,7 @@ If we're missing a library please let us know (see below)!
 
 - [JSON](https://github.com/nlohmann/json)
 
-## C &#35;
+## C&#35;
 
 - [Ramone](https://github.com/JornWildt/Ramone) (a framework for consuming REST services, includes a JSON Patch implementation)
 - [JsonPatch](https://github.com/myquay/JsonPatch) (Adds JSON Patch support to ASP.NET Web API)
@@ -162,6 +165,9 @@ If we're missing a library please let us know (see below)!
 ## Erlang
 
 - [json-patch.erl](https://github.com/marianoguerra/json-patch.erl)
+
+## Elm
+- [norpan/elm-json-patch](http://package.elm-lang.org/packages/norpan/elm-json-patch/latest)
 
 # Test Suite
 
