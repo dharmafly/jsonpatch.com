@@ -162,6 +162,9 @@ If we're missing a library please let us know (see below)!
 
 - [json-patch.erl](https://github.com/marianoguerra/json-patch.erl)
 
+## Elm
+- [norpan/elm-json-patch](http://package.elm-lang.org/packages/norpan/elm-json-patch/latest)
+
 # Test Suite
 
 A collection of conformance tests for JSON Patch are maintained on Github:
