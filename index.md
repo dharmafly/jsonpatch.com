@@ -42,7 +42,7 @@ A JSON Patch document is just a JSON file containing an array of patch operation
 
 JSON Pointer ([IETF RFC 6901](http://tools.ietf.org/html/rfc6901)) defines a string format for identifying a specific value within a JSON document. It is used by all operations in JSON Patch to specify the part of the document to operate on.
 
-A JSON Pointer is a string of tokens seperated by `/` characters, these tokens either specify keys in objects or indexes into arrays. For example, given the JSON
+A JSON Pointer is a string of tokens separated by `/` characters, these tokens either specify keys in objects or indexes into arrays. For example, given the JSON
 
     {
       "biscuits": [
