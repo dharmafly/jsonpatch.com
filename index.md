@@ -142,6 +142,10 @@ If we're missing a library please let us know (see below)!
 - [zjsonpatch](https://github.com/flipkart-incubator/zjsonpatch)
 - [json-patch](https://github.com/fge/json-patch)
 
+## C++
+
+- [JSON](https://github.com/nlohmann/json)
+
 ## C&#35;
 
 - [Ramone](https://github.com/JornWildt/Ramone) (a framework for consuming REST services, includes a JSON Patch implementation)
