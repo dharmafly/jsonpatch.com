@@ -69,7 +69,8 @@ Adds a value to an object or inserts it into an array. In the case of an array, 
 
 ### Remove
 
-    { "op": "remove", "path": "/biscuits" }
+    { "op": "remove", "path": "/biscuits" } // ← removes the entire array
+    { "op": "remove", "path": "/biscuits/0" } // ← removes the first array element
 
 Removes a value from an object or array.
 
