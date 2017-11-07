@@ -157,6 +157,7 @@ If we're missing a library please let us know (see below)!
 - [JsonPatch](https://github.com/myquay/JsonPatch) (Adds JSON Patch support to ASP.NET Web API)
 - [Starcounter](https://starcounter.io) (In-memory Application Engine, uses JSON Patch with OT for client-server sync)
 - [Nancy.JsonPatch](https://github.com/DSaunders/Nancy.JsonPatch) (Adds JSON Patch support to NancyFX)
+- [Manatee.Json](http://github.com/gregsdennis/Manatee.Json) (JSON-everything, including JSON Patch)
 
 ## Go
 
