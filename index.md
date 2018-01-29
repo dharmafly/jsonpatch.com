@@ -70,8 +70,12 @@ Adds a value to an object or inserts it into an array. In the case of an array, 
 ### Remove
 
     { "op": "remove", "path": "/biscuits" }
-
+    
 Removes a value from an object or array.
+    
+    { "op": "remove", "path": "/biscuits/0" }
+    
+Removes the first element of the array at `biscuits` (or just removes the "0" key if `biscuits` is an object)
 
 ### Replace
 
@@ -122,6 +126,7 @@ If we're missing a library please let us know (see below)!
 - [php-jsonpatch/php-jsonpatch](https://github.com/raphaelstolt/php-jsonpatch)
 - [xp-forge/json-patch](https://github.com/xp-forge/json-patch)
 - [JSONPatch](https://github.com/gamringer/JSONPatch)
+- [swaggest/json-diff](https://github.com/swaggest/json-diff)
 
 ## Ruby
 
@@ -141,6 +146,7 @@ If we're missing a library please let us know (see below)!
 
 - [zjsonpatch](https://github.com/flipkart-incubator/zjsonpatch)
 - [json-patch](https://github.com/fge/json-patch)
+- [bsonpatch](https://github.com/ebay/bsonpatch) (port of **zjsonpatch** that uses [BSON](https://en.wikipedia.org/wiki/BSON) as document model)
 
 ## Scala
 
@@ -148,15 +154,18 @@ If we're missing a library please let us know (see below)!
 
 ## C++
 
-- [JSON](https://github.com/nlohmann/json)
+- [JSON for Modern C++](https://github.com/nlohmann/json)
+- [jsoncons](https://github.com/danielaparker/jsoncons) 
 
 ## C&#35;
 
+* [Asp.Net Core JsonPatch](https://github.com/aspnet/JsonPatch) (Microsoft official implementation)
 - [Ramone](https://github.com/JornWildt/Ramone) (a framework for consuming REST services, includes a JSON Patch implementation)
 - [JsonPatch](https://github.com/myquay/JsonPatch) (Adds JSON Patch support to ASP.NET Web API)
 - [Starcounter](https://starcounter.io) (In-memory Application Engine, uses JSON Patch with OT for client-server sync)
 - [Nancy.JsonPatch](https://github.com/DSaunders/Nancy.JsonPatch) (Adds JSON Patch support to NancyFX)
 - [ASP.NET Core JsonPatch] (https://github.com/aspnet/JsonPatch) (ASP.NET core supports JSON Patch)
+- [Manatee.Json](http://github.com/gregsdennis/Manatee.Json) (JSON-everything, including JSON Patch)
 
 ## Go
 
