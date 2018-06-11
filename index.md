@@ -188,6 +188,12 @@ A collection of conformance tests for JSON Patch are maintained on Github:
 
 [github.com/json-patch/json-patch-tests](https://github.com/json-patch/json-patch-tests)
 
+# Tools
+
+- [JSON-Gui](https://json-gui.site)
+- [json-patch-builder-online](https://json-patch-builder-online.github.io)
+- [json-lab-patcher](http://helmet.kafuka.org/sbmods/json/#patcher)
+
 # JSON Schema
 
 [JSON Schema](http://json-schema.org/) is a way to describe JSON data formats like JSON Patch. Supporting [tools and libraries](http://json-schema.org/implementations.html) can use these schemas to provide auto-completion, validation and tooltips to help JSON file authors.
