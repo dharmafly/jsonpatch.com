@@ -24,7 +24,7 @@ JSON Patch is specified in [RFC 6902](http://tools.ietf.org/html/rfc6902) from t
     [
       { "op": "replace", "path": "/baz", "value": "boo" },
       { "op": "add", "path": "/hello", "value": ["world"] },
-      { "op": "remove", "path": "/foo"}
+      { "op": "remove", "path": "/foo" }
     ]
 
 ### The result
