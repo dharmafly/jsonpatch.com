@@ -169,6 +169,7 @@ If we're missing a library please let us know (see below)!
 ## Go
 
 - [json-patch](https://github.com/evanphx/json-patch)
+- [patchwerk](https://github.com/herkyl/patchwerk)
 - [jsonpatch](https://github.com/mattbaird/jsonpatch)
 
 ## Haskell
