@@ -147,6 +147,7 @@ If we're missing a library please let us know (see below)!
 - [zjsonpatch](https://github.com/flipkart-incubator/zjsonpatch)
 - [json-patch](https://github.com/fge/json-patch)
 - [bsonpatch](https://github.com/ebay/bsonpatch) (port of **zjsonpatch** that uses [BSON](https://en.wikipedia.org/wiki/BSON) as document model)
+- [json-values](https://github.com/imrafaelmerino/json-values)
 
 ## Scala
 
