@@ -190,10 +190,10 @@ A collection of conformance tests for JSON Patch are maintained on Github:
 
 # Tools
 
-- [JSON-Gui](https://json-gui.site)
 - [json-patch-builder-online](https://json-patch-builder-online.github.io)
 - [json-lab-patcher](http://helmet.kafuka.org/sbmods/json/#patcher)
 - [JSONBuddy editor](https://www.json-buddy.com)
+- [JSON Patch Generator](https://extendsclass.com/json-patch.html)
 
 # JSON Schema
 
