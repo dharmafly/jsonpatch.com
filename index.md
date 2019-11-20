@@ -127,6 +127,7 @@ If we're missing a library please let us know (see below)!
 - [xp-forge/json-patch](https://github.com/xp-forge/json-patch)
 - [JSONPatch](https://github.com/gamringer/JSONPatch)
 - [swaggest/json-diff](https://github.com/swaggest/json-diff)
+- [remorhaz/php-json-patch](https://github.com/remorhaz/php-json-patch)
 
 ## Ruby
 
