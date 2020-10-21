@@ -166,6 +166,10 @@ If we're missing a library please let us know (see below)!
 - [Nancy.JsonPatch](https://github.com/DSaunders/Nancy.JsonPatch) (Adds JSON Patch support to NancyFX)
 - [Manatee.Json](http://github.com/gregsdennis/Manatee.Json) (JSON-everything, including JSON Patch)
 
+## Rust
+
+- [json-patch](https://crates.io/crates/json-patch)
+
 ## Go
 
 - [json-patch](https://github.com/evanphx/json-patch)
