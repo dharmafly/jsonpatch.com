@@ -4,11 +4,11 @@ title: JSON Patch
 
 # What is JSON Patch?
 
-JSON Patch is a format for describing changes to a [JSON](http://json.com) document. It can be used to avoid sending a whole document when only a part has changed. When used in combination with the [HTTP PATCH method](http://tools.ietf.org/html/rfc5789), it allows partial updates for HTTP APIs in a standards compliant way.
+JSON Patch is a format for describing changes to a [JSON](http://json.com) document. It can be used to avoid sending a whole document when only a part has changed. When used in combination with the [HTTP PATCH method](https://datatracker.ietf.org/doc/html/rfc5789), it allows partial updates for HTTP APIs in a standards compliant way.
 
 The patch documents are themselves JSON documents.
 
-JSON Patch is specified in [RFC 6902](http://tools.ietf.org/html/rfc6902) from the IETF.
+JSON Patch is specified in [RFC 6902](https://datatracker.ietf.org/doc/html/rfc6902) from the IETF.
 
 ## Simple example
 
@@ -40,7 +40,7 @@ A JSON Patch document is just a JSON file containing an array of patch operation
 
 ## JSON Pointer
 
-JSON Pointer ([IETF RFC 6901](http://tools.ietf.org/html/rfc6901)) defines a string format for identifying a specific value within a JSON document. It is used by all operations in JSON Patch to specify the part of the document to operate on.
+JSON Pointer ([IETF RFC 6901](https://datatracker.ietf.org/doc/html/rfc6901)) defines a string format for identifying a specific value within a JSON document. It is used by all operations in JSON Patch to specify the part of the document to operate on.
 
 A JSON Pointer is a string of tokens separated by `/` characters, these tokens either specify keys in objects or indexes into arrays. For example, given the JSON
 
