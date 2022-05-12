@@ -188,6 +188,9 @@ If we're missing a library please let us know (see below)!
 ## Elm
 - [norpan/elm-json-patch](http://package.elm-lang.org/packages/norpan/elm-json-patch/latest)
 
+## Clojure
+- [daviddpark/clj-json-patch](https://github.com/daviddpark/clj-json-patch)
+
 # Test Suite
 
 A collection of conformance tests for JSON Patch are maintained on Github:
