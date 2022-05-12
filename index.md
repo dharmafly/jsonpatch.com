@@ -175,6 +175,10 @@ If we're missing a library please let us know (see below)!
 
 - [Haskell-JSON-Patch](https://github.com/GallagherCommaJack/Haskell-JSON-Patch)
 
+## Haxe
+
+- [jdiff](https://github.com/helder/jdiff)
+
 ## Erlang
 
 - [json-patch.erl](https://github.com/marianoguerra/json-patch.erl)
