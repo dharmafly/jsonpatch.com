@@ -140,6 +140,7 @@ If we're missing a library please let us know (see below)!
 ## Perl
 
 - [perl-json-patch](https://github.com/zigorou/perl-json-patch)
+- [JSON::Patch](https://metacpan.org/pod/JSON::Patch)
 
 ## C
 
