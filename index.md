@@ -145,6 +145,7 @@ If we're missing a library please let us know (see below)!
 ## C
 
 - [cJSON](https://github.com/DaveGamble/cJSON) (JSON library in C, includes JSON Patch support in cJSON_Utils)
+- [EJDB2](https://github.com/Softmotions/ejdb) (JSON database engine with support of JSON Patch and Merge Patch)
 
 ## Java
 
