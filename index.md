@@ -109,6 +109,7 @@ If we're missing a library please let us know (see below)!
 
 ## JavaScript
 
+- [json-joy](https://github.com/streamich/json-joy)
 - [jsonpatch.js](http://jsonpatchjs.com/)
 - [jsonpatch-js](http://bruth.github.com/jsonpatch-js/)
 - [jiff](https://github.com/cujojs/jiff)
