@@ -165,7 +165,7 @@ If we're missing a library please let us know (see below)!
 
 ## C&#35;
 
-* [Asp.Net Core JsonPatch](https://github.com/aspnet/JsonPatch) (Microsoft official implementation)
+* [ASP.NET Core JsonPatch](https://github.com/dotnet/aspnetcore/tree/main/src/Features/JsonPatch) (Microsoft official implementation)
 - [Ramone](https://github.com/JornWildt/Ramone) (a framework for consuming REST services, includes a JSON Patch implementation)
 - [JsonPatch](https://github.com/myquay/JsonPatch) (Adds JSON Patch support to ASP.NET Web API)
 - [Starcounter](https://starcounter.io) (In-memory Application Engine, uses JSON Patch with OT for client-server sync)
