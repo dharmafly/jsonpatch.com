@@ -109,12 +109,14 @@ If we're missing a library please let us know (see below)!
 
 ## JavaScript
 
+- [json-joy](https://github.com/streamich/json-joy)
 - [jsonpatch.js](http://jsonpatchjs.com/)
 - [jsonpatch-js](http://bruth.github.com/jsonpatch-js/)
 - [jiff](https://github.com/cujojs/jiff)
 - [Fast-JSON-Patch](https://github.com/Starcounter-Jack/Fast-JSON-Patch)
 - [JSON8 Patch](https://github.com/JSON8/patch)
 - [JSON Patch Utils](https://github.com/MarketsWorld/json-patch-utils)
+- [mutant-json](https://github.com/rubeniskov/mutant-json)
 
 ## Python
 
@@ -127,6 +129,7 @@ If we're missing a library please let us know (see below)!
 - [xp-forge/json-patch](https://github.com/xp-forge/json-patch)
 - [JSONPatch](https://github.com/gamringer/JSONPatch)
 - [swaggest/json-diff](https://github.com/swaggest/json-diff)
+- [remorhaz/php-json-patch](https://github.com/remorhaz/php-json-patch)
 
 ## Ruby
 
@@ -137,13 +140,16 @@ If we're missing a library please let us know (see below)!
 ## Perl
 
 - [perl-json-patch](https://github.com/zigorou/perl-json-patch)
+- [JSON::Patch](https://metacpan.org/pod/JSON::Patch)
 
 ## C
 
 - [cJSON](https://github.com/DaveGamble/cJSON) (JSON library in C, includes JSON Patch support in cJSON_Utils)
+- [EJDB2](https://github.com/Softmotions/ejdb) (JSON database engine with support of JSON Patch and Merge Patch)
 
 ## Java
 
+- [simple-json-patch](https://github.com/egerardus/simple-json-patch)
 - [zjsonpatch](https://github.com/flipkart-incubator/zjsonpatch)
 - [json-patch](https://github.com/fge/json-patch)
 - [bsonpatch](https://github.com/ebay/bsonpatch) (port of **zjsonpatch** that uses [BSON](https://en.wikipedia.org/wiki/BSON) as document model)
@@ -164,16 +170,21 @@ If we're missing a library please let us know (see below)!
 - [JsonPatch](https://github.com/myquay/JsonPatch) (Adds JSON Patch support to ASP.NET Web API)
 - [Starcounter](https://starcounter.io) (In-memory Application Engine, uses JSON Patch with OT for client-server sync)
 - [Nancy.JsonPatch](https://github.com/DSaunders/Nancy.JsonPatch) (Adds JSON Patch support to NancyFX)
-- [Manatee.Json](http://github.com/gregsdennis/Manatee.Json) (JSON-everything, including JSON Patch)
+- [JsonPatch.Net](http://github.com/gregsdennis/json-everything) (JSON Patch support for System.Text.Json)
 
 ## Go
 
 - [json-patch](https://github.com/evanphx/json-patch)
+- [patchwerk](https://github.com/herkyl/patchwerk)
 - [jsonpatch](https://github.com/mattbaird/jsonpatch)
 
 ## Haskell
 
 - [Haskell-JSON-Patch](https://github.com/GallagherCommaJack/Haskell-JSON-Patch)
+
+## Haxe
+
+- [jdiff](https://github.com/helder/jdiff)
 
 ## Erlang
 
@@ -181,6 +192,9 @@ If we're missing a library please let us know (see below)!
 
 ## Elm
 - [norpan/elm-json-patch](http://package.elm-lang.org/packages/norpan/elm-json-patch/latest)
+
+## Clojure
+- [daviddpark/clj-json-patch](https://github.com/daviddpark/clj-json-patch)
 
 # Test Suite
 
@@ -190,10 +204,12 @@ A collection of conformance tests for JSON Patch are maintained on Github:
 
 # Tools
 
+- [JSON-Gui](https://json-gui.esstudio.site/)
 - [json-patch-builder-online](https://json-patch-builder-online.github.io)
 - [json-lab-patcher](http://helmet.kafuka.org/sbmods/json/#patcher)
 - [JSONBuddy editor](https://www.json-buddy.com)
-- [JSON Patch Generator](https://extendsclass.com/json-patch.html)
+- [jsonpatch.me](https://jsonpatch.me)
+- [json-patch-builder-online](https://json-patch-builder-online.github.io)
 
 # JSON Schema
 
