@@ -209,6 +209,7 @@ A collection of conformance tests for JSON Patch are maintained on Github:
 - [json-lab-patcher](http://helmet.kafuka.org/sbmods/json/#patcher)
 - [JSONBuddy editor](https://www.json-buddy.com)
 - [jsonpatch.me](https://jsonpatch.me)
+- [json-patch-builder-online](https://json-patch-builder-online.github.io)
 
 # JSON Schema
 
