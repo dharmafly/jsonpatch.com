@@ -173,7 +173,7 @@ If we're missing a library please let us know (see below)!
 
 ## Rust
 
-- [json-patch](https://crates.io/crates/json-patch)
+- [json-patch](https://github.com/idubrov/json-patch)
 
 ## Go
 
