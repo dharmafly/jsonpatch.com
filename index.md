@@ -171,6 +171,10 @@ If we're missing a library please let us know (see below)!
 - [Nancy.JsonPatch](https://github.com/DSaunders/Nancy.JsonPatch) (Adds JSON Patch support to NancyFX)
 - [JsonPatch.Net](http://github.com/gregsdennis/json-everything) (JSON Patch support for System.Text.Json)
 
+## Rust
+
+- [json-patch](https://github.com/idubrov/json-patch)
+
 ## Go
 
 - [json-patch](https://github.com/evanphx/json-patch)
