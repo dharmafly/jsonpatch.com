@@ -116,6 +116,7 @@ If we're missing a library please let us know (see below)!
 - [Fast-JSON-Patch](https://github.com/Starcounter-Jack/Fast-JSON-Patch)
 - [JSON8 Patch](https://github.com/JSON8/patch)
 - [mutant-json](https://github.com/rubeniskov/mutant-json)
+- [immutable-json-patch](https://github.com/josdejong/immutable-json-patch)
 
 ## Python
 
