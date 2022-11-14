@@ -199,6 +199,7 @@ If we're missing a library please let us know (see below)!
 
 ## Clojure
 - [daviddpark/clj-json-patch](https://github.com/daviddpark/clj-json-patch)
+- [clj-json-pointer](https://github.com/borgeby/clj-json-pointer)
 
 # Test Suite
 
