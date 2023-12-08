@@ -154,6 +154,10 @@ If we're missing a library please let us know (see below)!
 - [json-patch](https://github.com/fge/json-patch)
 - [bsonpatch](https://github.com/ebay/bsonpatch) (port of **zjsonpatch** that uses [BSON](https://en.wikipedia.org/wiki/BSON) as document model)
 
+## Kotlin
+
+- [kotlin-json-patch](https://github.com/ReidSync/kotlin-json-patch) (A pure Kotlin library that can be imported into both Kotlin Multiplatform and Android Native projects.)
+
 ## Scala
 
 - [diffson](https://github.com/gnieh/diffson)
