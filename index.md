@@ -223,6 +223,7 @@ A collection of conformance tests for JSON Patch are maintained on Github:
 # Tools
 
 - [JSON-Gui](https://json-gui.esstudio.site/)
+- [JSONing](https://jsoning.com/jsonpatch/)
 - [json-patch-builder-online](https://json-patch-builder-online.github.io)
 - [json-lab-patcher](http://helmet.kafuka.org/sbmods/json/#patcher)
 - [JSONBuddy editor](https://www.json-buddy.com)
@@ -231,7 +232,7 @@ A collection of conformance tests for JSON Patch are maintained on Github:
 
 # JSON Schema
 
-[JSON Schema](https://json-schema.org/) is a way to describe JSON data formats like JSON Patch. Supporting [tools and libraries](https://json-schema.org/implementations.html) can use these schemas to provide auto-completion, validation and tooltips to help JSON file authors.
+[JSON Schema](https://json-schema.org/) is a way to describe JSON data formats like JSON Patch. Supporting [tools and libraries](https://json-schema.org/tools) can use these schemas to provide auto-completion, validation and tooltips to help JSON file authors.
 
 [https://json.schemastore.org/json-patch](https://json.schemastore.org/json-patch)
 
