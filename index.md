@@ -114,6 +114,7 @@ If we're missing a library please let us know (see below)!
 - [jsonpatch-js](http://bruth.github.io/jsonpatch-js/)
 - [jiff](https://github.com/cujojs/jiff)
 - [Fast-JSON-Patch](https://github.com/Starcounter-Jack/Fast-JSON-Patch)
+- [UltraPatch](https://github.com/FluentCoding/UltraPatch)
 - [JSON8 Patch](https://github.com/JSON8/patch)
 - [mutant-json](https://github.com/rubeniskov/mutant-json)
 - [immutable-json-patch](https://github.com/josdejong/immutable-json-patch)
