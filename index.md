@@ -191,6 +191,7 @@ If we're missing a library please let us know (see below)!
 ## Haskell
 
 - [Haskell-JSON-Patch](https://github.com/GallagherCommaJack/Haskell-JSON-Patch)
+- [jsonpatch](https://github.com/pbrisbin/jsonpatch#readme)
 
 ## Haxe
 
