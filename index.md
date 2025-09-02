@@ -154,7 +154,8 @@ If we're missing a library please let us know (see below)!
 - [simple-json-patch](https://github.com/egerardus/simple-json-patch)
 - [zjsonpatch](https://github.com/flipkart-incubator/zjsonpatch)
 - [json-patch](https://github.com/fge/json-patch)
-- [bsonpatch](https://github.com/ebay/bsonpatch) (port of **zjsonpatch** that uses [BSON](https://en.wikipedia.org/wiki/BSON) as document model)
+- [bsonpatch](https://bsonpatch.github.io/bsonpatch) (port of [zjsonpatch](https://github.com/flipkart-incubator/zjsonpatch) that uses [BSON](https://en.wikipedia.org/wiki/BSON) as document model)
+- [bsonpatch](https://github.com/ebay/bsonpatch) (older, not current supported, version of [bsonpatch](https://bsonpatch.github.io/bsonpatch))
 
 ## Kotlin
 
