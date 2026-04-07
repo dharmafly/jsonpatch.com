@@ -225,6 +225,7 @@ A collection of conformance tests for JSON Patch are maintained on Github:
 
 # Tools
 
+- [99Tools JSON Patch Generator](https://99tools.net/json-patch-generator/)
 - [JSON-Gui](https://json-gui.esstudio.site/)
 - [JSONing](https://jsoning.com/jsonpatch/)
 - [json-patch-builder-online](https://json-patch-builder-online.github.io)
