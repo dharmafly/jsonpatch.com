@@ -233,6 +233,7 @@ A collection of conformance tests for JSON Patch are maintained on Github:
 - [JSONBuddy editor](https://www.json-buddy.com)
 - [jsonpatch.me](https://jsonpatch.me)
 - [ExtendsClass](https://extendsclass.com/json-patch.html)
+- [JSON Patch Online](https://www.jsonpatchonline.com/)
 
 # JSON Schema
 
