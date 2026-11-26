@@ -234,6 +234,7 @@ A collection of conformance tests for JSON Patch are maintained on Github:
 - [jsonpatch.me](https://jsonpatch.me)
 - [ExtendsClass](https://extendsclass.com/json-patch.html)
 - [JSON Patch Online](https://www.jsonpatchonline.com/)
+- [JSONViewerTool JSON Patch Generator](https://jsonviewertool.com/json-patch)
 
 # JSON Schema
 
